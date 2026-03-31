@@ -1,11 +1,27 @@
+# AI Output Testing & Quality Evaluation Platform
 
-  # AI Quality Testing Platform
+A **QA-focused web platform** for testing, evaluating, and improving AI-generated outputs (text and optionally images/video). Designed for engineers and QA testers to manage prompts, evaluate AI responses, track bugs, and analyze AI performance.
 
-  This is a code bundle for AI Quality Testing Platform. The original project is available at https://www.figma.com/design/0rSXM4jHGeURA5kdpVgbYG/AI-Quality-Testing-Platform.
+## Main functionalities
 
-  ## Running the code
+This platform allows users to:
 
-  Run `npm i` to install the dependencies.
+- Input custom prompts and generate AI responses
+- Evaluate AI outputs with structured metrics
+- Track and report issues or bugs
+- Manage test cases and sessions
+- View analytics and insights on AI performance
 
-  Run `npm run dev` to start the development server.
-  
+## ⚙️ Tech Stack
+
+- **Frontend:** React + TypeScript + Tailwind CSS (or preferred UI framework)  
+- **Backend:** Supabase Edge Functions (currently Hono, can be adapted to Express)  
+- **Database:** Supabase (PostgreSQL with JSONB fields)  
+- **AI Integration:** OpenAI API  
+
+## 🔧 Getting Started
+
+### 1. Environment Variables
+
+- npm i
+- npm run dev
